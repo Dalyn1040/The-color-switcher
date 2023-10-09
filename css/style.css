@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#bg{
+    border: 6 px solid (blue); 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column ;
+    padding: 30px;
+
+}
+
+main > div{
+    
+    background-color: black;
+    border-radius: 6px;
+    display: flex;
+    padding: 30px;
+    color: white;
+    font-weight: bold;
+
+}
+    
+div p{
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+#bgbutton {
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#bgbutton:hover {
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+}
+
+#bgcolor{
+    color: blue;
+    
+}
